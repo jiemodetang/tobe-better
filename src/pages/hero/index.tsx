@@ -39,6 +39,7 @@ const Hero: FC<PageProps> = (props) => {
           <Col key={item.name} span={3} className={styles.heroitem}>
             <img src={"https://game.gtimg.cn/images/lol/act/img/champion/" + item.alias + '.png'} />
             <p>{item.name}</p>
+            
           </Col>
         ))}
       </Row>
