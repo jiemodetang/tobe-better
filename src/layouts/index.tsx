@@ -5,7 +5,7 @@ const { Header, Content, Footer } = Layout;
 import { Link } from 'umi'
 const menuData = [
     { route: '/hero', name: '英雄' },
-    { route: '/heroInfo', name: '信息' },
+    { route: '/parts', name: '物品' },
 ];
 function BasicLayout(props: { location: any; children: React.ReactNode; }) {
     //从属性中取出当前的路由
@@ -16,7 +16,7 @@ function BasicLayout(props: { location: any; children: React.ReactNode; }) {
     return (
         <Layout>
             <Header>
-                <div className={styles.logo}>王者荣耀资料库 </div>
+                <div className={styles.logo}>LOL </div>
                 <Menu
                     theme="dark"
                     mode="horizontal"

@@ -1,30 +1,30 @@
 import { Effect, Reducer, Subscription,request } from 'umi';
 
 
-export interface HeroModelState {
+export interface PartsModelState {
     name: string;
-    heros: any,
+    parts: any,
 }
 
-export interface HeroModelType {
-    namespace: 'hero';
-    state: HeroModelState;
+export interface PartsModelType {
+    namespace: 'parts';
+    state: PartsModelState;
     effects: {
         query: Effect;
         fetch: Effect;
     };
     reducers: {
-        save: Reducer<HeroModelState>;
+        save: Reducer<PartsModelState>;
     };
     subscriptions: { setup: Subscription };
 }
 
-const HeroModel: HeroModelType = {
-    namespace: 'hero',
+const PartsModel: PartsModelType = {
+    namespace: 'parts',
 
     state: {
-        name: 'hero',
-        heros: {},
+        name: 'parts',
+        parts: {},
     },
 
     effects: {
@@ -32,7 +32,7 @@ const HeroModel: HeroModelType = {
 
         },
         *fetch({ type, payload }, { put, call, select }) {
-            const data = yield request('/images/lol/act/img/js/heroList/hero_list.js',{
+            const data = yield request('/images/lol/act/img/js/items/items.js',{
                 method: 'GET',
                 headers: {
                 },
@@ -41,7 +41,7 @@ const HeroModel: HeroModelType = {
             yield put({
                 type: 'save',
                 payload: {
-                    heros: data  
+                    parts: data  
                 },
             });
         }
@@ -57,7 +57,7 @@ const HeroModel: HeroModelType = {
     subscriptions: {
         setup({ dispatch, history }) {
             return history.listen(({ pathname }) => {
-                if (pathname === '/hero') {
+                if (pathname === '/parts') {
                     dispatch({
                         type: 'fetch'
                     })
@@ -68,4 +68,4 @@ const HeroModel: HeroModelType = {
 
 };
 
-export default HeroModel;
+export default PartsModel;

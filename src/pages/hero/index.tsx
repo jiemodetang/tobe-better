@@ -1,8 +1,12 @@
 import React, { FC, useState } from 'react';
-import styles from './index.less';
+import './index.less';
 import { connect, HeroModelState, ConnectProps } from 'umi';
-import { Row, Col, Radio, Card } from 'antd';
+import { Row, Col, Radio, Card, Carousel } from 'antd';
 import { RadioChangeEvent } from 'antd/es/radio/interface'
+import CarouselComponent from '../../components/carousel/index'
+
+
+
 interface PageProps extends ConnectProps {
   hero: HeroModelState;
 }
@@ -27,7 +31,8 @@ const Hero: FC<PageProps> = (props) => {
   };
   return (
     <div>
-      <RadioGroup onChange={onChange} value={filterKey}>
+      <CarouselComponent />
+      <RadioGroup onChange={onChange} value={filterKey} className='radioGroupCss'>
         {heroType.map(data => (
           <Radio value={data.key} key={`hero-rodio-${data.key}`}>
             {data.value}
@@ -36,10 +41,10 @@ const Hero: FC<PageProps> = (props) => {
       </RadioGroup>
       <Row>
         {hero.filter((item: any) => item.roles.includes(filterKey) || filterKey === 'all').map((item: any) => (
-          <Col key={item.name} span={3} className={styles.heroitem}>
+          <Col key={item.name} span={3} className='heroitem'>
             <img src={"https://game.gtimg.cn/images/lol/act/img/champion/" + item.alias + '.png'} />
             <p>{item.name}</p>
-            
+
           </Col>
         ))}
       </Row>
