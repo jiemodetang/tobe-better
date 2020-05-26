@@ -38,7 +38,7 @@ function BasicLayout(props: { location: any; children: React.ReactNode; }) {
                     {props.children}
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Umi 入门教程 Created by xiaohuoni</Footer>
+            <Footer style={{ textAlign: 'center' }}>Umi 入门教程 Created by zzz</Footer>
         </Layout>
     );
 }

@@ -36,6 +36,11 @@
 2.[学习案例](https://www.yuque.com/umijs/umi/filter)
 3.[学习案例](https://blog.csdn.net/deletGlobal/article/details/106183217)
 
+```
+yarn 
+yarn start 
+yarn build
+```
 后续继续更新
   
 
