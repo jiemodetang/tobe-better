@@ -1,13 +1,8 @@
 
 # umi-project
 
-<<<<<<< HEAD
- <img src="https://cdn.stocksnap.io/img-thumbs/280h/JN0TSD4UG5.jpg"  width='100%'  />] 
-
-=======
 
  <img src="https://cdn.stocksnap.io/img-thumbs/280h/JN0TSD4UG5.jpg"  width='100%'  />
->>>>>>> 987e17ebe71f232a95f80f08d07fcc9d9fa57a80
 
  ## 目录结构
 
