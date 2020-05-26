@@ -1,7 +1,8 @@
 
 # umi-project
 
-<video src="https://player.vimeo.com/external/316817750.sd.mp4?s=cecc367281d676b407a94a1470f5c4e4dd4aa4f1&profile_id=164&oauth2_token_id=57447761" style='margin:0 auto'></video>
+ <img src="https://upload-images.jianshu.io/upload_images/14802064-563c41afc0b83124.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  width='100%'  />] 
+
 
  ## 目录结构
 
