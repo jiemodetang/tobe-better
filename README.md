@@ -1,7 +1,7 @@
 
 # umi-project
 
- [<img src="https://upload-images.jianshu.io/upload_images/14802064-563c41afc0b83124.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"    />]
+ [<img src="https://upload-images.jianshu.io/upload_images/14802064-563c41afc0b83124.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"  width='100%'  />]
 
 
  ## 目录结构
