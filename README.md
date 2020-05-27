@@ -23,9 +23,13 @@
     |-- .prettierignore                       # 代码风格配置忽略文件
     |-- .prettierrc                           # 代码风格配置文件
     |-- package.json                          
-    |-- README.md         
+    |-- README.md       
+    
+      
 > 尝试用umi3去搭建项目
 > 项目采用umi+dva+ts进行尝试
+> 实现国际化配置
+
 
 ## 一些技巧
 - umi g page hero --typescript --less 创建页面
@@ -33,8 +37,17 @@
 ## 一些链接
 
 1.[umi官网](https://umijs.org/zh-CN) 
-2.[学习案例](https://www.yuque.com/umijs/umi/filter)
+
+2.[学习案例](https://www.yuque.com/umijs/umi/filter) 
+
 3.[学习案例](https://blog.csdn.net/deletGlobal/article/details/106183217)
+
+4.[umi-hooks](https://hooks.umijs.org/zh-CN/hooks/async)
+
+## 项目截图
+    http://chuantu.xyz/t6/736/1590560315x3703728804.jpg
+
+    > 目前有详情页，列表页，和资料页
 
 ```
 yarn 

@@ -22,9 +22,6 @@ const partsType = [
 ];
 
 const parts: FC<PageProps> = (props) => {
-  console.log(props.parts);
-  console.log(props);
-
   const { items = [] } = props.parts.parts;
   const [filterKey, setFilterKey] = useState('all')
   const onChange = (e: RadioChangeEvent) => {

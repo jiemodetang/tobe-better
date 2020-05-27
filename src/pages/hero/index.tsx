@@ -4,7 +4,7 @@ import { connect, HeroModelState, ConnectProps,history } from 'umi';
 import { Row, Col, Radio, Card, Carousel } from 'antd';
 import { RadioChangeEvent } from 'antd/es/radio/interface'
 import CarouselComponent from '../../components/carousel/index'
-
+import {intl} from '../../utils/commonFun'
 
 
 interface PageProps extends ConnectProps {
@@ -12,18 +12,18 @@ interface PageProps extends ConnectProps {
 }
 
 const RadioGroup = Radio.Group;
-const heroType = [
-  { key: 'all', value: '全部' },
-  { key: "fighter", value: '战士' },
-  { key: 'mage', value: '法师' },
-  { key: "tank", value: '坦克' },
-  { key: "assassin", value: '刺客' },
-  { key: "marksman", value: '射手' },
-  { key: "support", value: '辅助' },
-];
 
 const Hero: FC<PageProps> = (props) => {
-  console.log(props.hero);
+  const heroType = [
+    { key: 'all', value: intl('tobe_all') },
+    { key: "fighter", value: intl('tobe_fighter') },
+    { key: 'mage', value: intl('tobe_mage') },
+    { key: "tank", value: intl('tobe_tank') },
+    { key: "assassin", value: intl('tobe_assassin') },
+    { key: "marksman", value: intl('tobe_marksman') },
+    { key: "support", value: intl('tobe_support') },
+  ];
+  
   const { hero = [] } = props.hero.heros;
   const [filterKey, setFilterKey] = useState('all')
   const onChange = (e: RadioChangeEvent) => {
