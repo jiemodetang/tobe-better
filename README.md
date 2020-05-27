@@ -33,7 +33,8 @@
 
 ## 一些技巧
 - umi g page hero --typescript --less 创建页面
-
+-  lsof  -i :8888（杀端口）
+    kill -9 KID
 ## 一些链接
 
 1.[umi官网](https://umijs.org/zh-CN) 
