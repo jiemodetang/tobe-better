@@ -24,8 +24,8 @@
     |-- .prettierrc                           # 代码风格配置文件
     |-- package.json                          
     |-- README.md       
-    
-      
+
+
 > 尝试用umi3去搭建项目
 > 项目采用umi+dva+ts进行尝试
 > 实现国际化配置
@@ -45,7 +45,8 @@
 4.[umi-hooks](https://hooks.umijs.org/zh-CN/hooks/async)
 
 ## 项目截图
-    http://chuantu.xyz/t6/736/1590560315x3703728804.jpg
+ <img src="http://chuantu.xyz/t6/736/1590560315x3703728804.jpg"  width='100%'  />
+    
 
     > 目前有详情页，列表页，和资料页
 
