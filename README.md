@@ -47,7 +47,7 @@
 
 5.[浏览器兼容配置](https://github.com/zloirock/core-js#commonjs-api)
 ## 项目截图
- <img src="http://chuantu.xyz/t6/736/1590560315x3703728804.jpg"  width='100%'  />
+ <img src="http://chuantu.xyz/t6/736/1590631240x1033347913.jpg"  width='100%'  />
     
 
     > 目前有详情页，列表页，和资料页

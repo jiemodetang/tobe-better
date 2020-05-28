@@ -20,6 +20,8 @@
     ]
   },
   "dependencies": {
+    "@antv/l7": "^2.2.10",
+    "@antv/l7-maps": "^2.2.10",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.2",
     "lint-staged": "^10.0.7",
