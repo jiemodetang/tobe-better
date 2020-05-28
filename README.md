@@ -28,7 +28,7 @@
 
 > 尝试用umi3去搭建项目
 > 项目采用umi+dva+ts进行尝试
-> 实现国际化配置
+> 实现约定式路由，国际化配置
 
 
 ## 一些技巧
@@ -45,6 +45,7 @@
 
 4.[umi-hooks](https://hooks.umijs.org/zh-CN/hooks/async)
 
+5.[浏览器兼容配置](https://github.com/zloirock/core-js#commonjs-api)
 ## 项目截图
  <img src="http://chuantu.xyz/t6/736/1590560315x3703728804.jpg"  width='100%'  />
     
